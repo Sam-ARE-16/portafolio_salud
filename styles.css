@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+.navbar {
+    background-color: #0056b3 !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.carousel-inner img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #0056b3;
+}
+
+/* Modo oscuro */
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode .navbar,
+.dark-mode footer {
+    background-color: #000 !important;
+}
+
+.dark-mode a {
+    color: #1e90ff;
+}
